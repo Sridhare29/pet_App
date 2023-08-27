@@ -24,7 +24,7 @@ class PostScreen extends ConsumerWidget {
                 width: double.maxFinite,
                 height: Dimensions.imgHeight,
                 child: Image.network(
-                _data[0].image??"",
+                _data[2].image??"",
                 fit: BoxFit.cover,
               ),
 
